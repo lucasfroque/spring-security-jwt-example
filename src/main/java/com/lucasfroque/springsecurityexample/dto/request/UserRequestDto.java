@@ -29,6 +29,7 @@ public class UserRequestDto {
         User user = new User();
         user.setName(this.name);
         user.setEmail(this.email);
+        user.setPassword(this.password);
         return user;
     }
 }
